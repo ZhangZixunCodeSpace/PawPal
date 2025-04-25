@@ -6,12 +6,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &ensp;
 [![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/pawpal/ci.yml?branch=main)](https://github.com/yourusername/pawpal/actions) &ensp;
 [![Coverage Status](https://img.shields.io/codecov/c/github/yourusername/pawpal)](https://codecov.io/gh/yourusername/pawpal) 
-# PawPal
+# PawPal (AI-driven smart dog-walking for busy city pet owners)
 
-**AI-driven smart dog-walking for busy city pet owners** 
----
 
-**Our team members** [@Nikii](https://github.com/mannaandpoem) and [@Tissa](https://github.com/Tissaaaaaa)) , along with [@Soymilk](https://github.com/Soyamilkk).
+**Our team members** [@Nikii](https://github.com/mannaandpoem) and [@Tissa](https://github.com/Tissaaaaaa) , along with [@Soymilk](https://github.com/Soyamilkk).
 
 ## Table of Contents  
 1. [Features](#features)  
@@ -24,7 +22,6 @@
 8. [Contributing](#contributing)  
 9. [License](#license)  
 
----
 
 ## Features  
 - **Role Selection**: Instantly choose “Owner” or “Walker” on entry  ([About READMEs - GitHub Docs](https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes?utm_source=chatgpt.com))  
@@ -34,16 +31,10 @@
 - **Penalty & Exception Handling**: Auto-penalizes late arrivals or detours, with customer support fallback  ([How to write a good README - GitHub](https://github.com/banesullivan/README?utm_source=chatgpt.com))  
 - **Two-Way Ratings**: Owners and walkers rate each other to refine future matches  ([Creating a Powerful README: Best Practices for Your Project](https://medium.com/%40berastis/creating-a-powerful-readme-best-practices-for-your-project-f974a1e69a51?utm_source=chatgpt.com))  
 
----
 
 ## Demo  
 undermain
-<p align="center">
-  <video src="assets/demo.mp4" controls muted style="max-width:100%;border-radius:8px;"></video>
-</p>  
-_Check out the live demo on Azure Static Web Apps and see PawPal in action!_  ([Welcome! Badges 4 README.md Profile - GitHub](https://github.com/alexandresanlim/Badges4-README.md-Profile?utm_source=chatgpt.com))
-
----
+Check out the live demo on Azure Static Web Apps and see PawPal in action!
 
 ## Tech Stack  
 - **Frontend**: React, TypeScript, Azure Maps Web SDK  ([An awesome README template to jumpstart your projects! - GitHub](https://github.com/othneildrew/Best-README-Template?utm_source=chatgpt.com))  
@@ -52,7 +43,7 @@ _Check out the live demo on Azure Static Web Apps and see PawPal in action!_  ([
 - **CI/CD**: GitHub Actions → Azure Static Web Apps & Function App  ([README.md - badges/shields - GitHub](https://github.com/badges/shields/blob/master/README.md?utm_source=chatgpt.com))  
 - **Monitoring**: Application Insights  ([How to Write a Good README File for Your GitHub Project](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/?utm_source=chatgpt.com))  
 
----
+
 
 ## Architecture  
 This flow follows “Role → Form → Match → Order → Route → Complete” 
@@ -120,7 +111,6 @@ npm install
 npm start                    # Opens http://localhost:3000
 ```
 
----
 
 ## API Reference  
 | Endpoint                        | Method | Description                           |
@@ -134,7 +124,6 @@ npm start                    # Opens http://localhost:3000
 | `/api/order/{id}/complete`      | POST   | Mark order as complete                |
 | `/api/order/{id}/rating`        | POST   | Submit ratings and feedback           |  ([A simple README.md template - GitHub Gist](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc?utm_source=chatgpt.com))
 
----
 
 ## Project Structure  
 ```
@@ -156,7 +145,6 @@ pawpal/
 └── README.md
 ```  
 
----
 
 ## Contributing  
 1. Fork this repo  
@@ -165,7 +153,6 @@ pawpal/
 4. Push to your branch (`git push origin feature/your-feature`)  
 5. Open a Pull Request  ([jehna/readme-best-practices - GitHub](https://github.com/jehna/readme-best-practices?utm_source=chatgpt.com))
 
----
 
 ## License  
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
